@@ -1,0 +1,39 @@
+﻿@page
+@using WebProject.Data;
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebProject.Pages.IndexModel
+
+@{
+}
+
+<p>@Model.NowDay </p>
+
+<table>
+	<thead>
+		<tr>
+			<th>이름</th>
+			<th>전화번호</th>
+		</tr>
+	</thead>
+	<tbody>
+		@if (Model.Names != null)
+		{
+			@foreach (var item in Model.Names)
+			{
+				<tr>
+					<td>@item.Name</td>
+					<td>@item.PhoneNumber</td>
+				</tr>
+			}
+		}
+	</tbody>
+</table>
+
+<div class="row">
+	<form method="POST">
+		<input asp-for="phoneBook.Name" placeholder="이름" /><br />
+		<input asp-for="phoneBook.PhoneNumber" placeholder="전화번호" /><br />
+		<input type="submit" />
+	</form>
+</div>
+

@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "raumrf72Gb8IAROnWocMU7XA4bqroS6NKxix+PwQnew=",
+  "Source": "WebProject",
+  "BasePath": "_content/WebProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebProject\\wwwroot",
+      "Source": "WebProject",
+      "ContentRoot": "C:\\Users\\dh0rw\\Desktop\\Web_Csharp\\Web_Csharp\\wwwroot\\",
+      "BasePath": "_content/WebProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

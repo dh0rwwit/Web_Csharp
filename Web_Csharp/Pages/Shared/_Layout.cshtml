@@ -1,0 +1,27 @@
+﻿@* Razor Layout *@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @* ViewBag
+    1. 페이지 사이에서 데이터를 전달할 때 씀 
+    2. 다른 페이지에서 ViewBag의 Title에 값을 설정하면, Shared폴더안의 Layout페이지 안에서 요청된 내용을 출력
+    
+    *@
+
+</head>
+<body>
+    <h1>레이아웃 영역입니다.</h1>
+    <div>
+        @* Layout페이지 안에서 요청된 페이지의 내용을 출력하는 부분 *@
+        @RenderBody()
+        
+    </div>
+
+
+
+</body>
+</html>
