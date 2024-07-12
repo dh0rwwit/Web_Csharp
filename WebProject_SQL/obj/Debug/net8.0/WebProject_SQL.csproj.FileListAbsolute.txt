@@ -65,3 +65,4 @@ C:\Users\dh0rw\Desktop\Web_Csharp\WebProject_SQL\obj\Debug\net8.0\refint\WebProj
 C:\Users\dh0rw\Desktop\Web_Csharp\WebProject_SQL\obj\Debug\net8.0\WebProject_SQL.pdb
 C:\Users\dh0rw\Desktop\Web_Csharp\WebProject_SQL\obj\Debug\net8.0\WebProject_SQL.genruntimeconfig.cache
 C:\Users\dh0rw\Desktop\Web_Csharp\WebProject_SQL\obj\Debug\net8.0\ref\WebProject_SQL.dll
+C:\Users\dh0rw\Desktop\Web_Csharp\WebProject_SQL\obj\Debug\net8.0\WebProject_SQL.sourcelink.json
